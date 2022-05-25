@@ -20,7 +20,7 @@ const data = JSON.stringify({
 const options = {
     hostname: 'events.pagerduty.com',
     port: '443',
-    path: '/v2/change/enqueue',
+    path: '/v2/enqueue',
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
